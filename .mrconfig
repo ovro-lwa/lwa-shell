@@ -1,0 +1,27 @@
+# myrepos config file for ovro-lwa Project
+
+[lwa-antpos]
+checkout =
+    git clone git@github.com:ovro-lwa/lwa-antpos.git
+
+[ARXtesting]
+checkout =
+    git clone git@github.com:ovro-lwa/ARXtesting.git
+
+[mnc_python]
+checkout =
+    git clone git@github.com:ovro-lwa/mnc_python.git
+
+[lwa-issues]
+checkout =
+    git clone git@github.com:ovro-lwa/lwa-issues.git
+
+[ops-issues]
+checkout =
+    git clone git@github.com:ovro-lwa/ops-issues.git
+
+[dada2ms]
+checkout =
+    git clone git@github.com:ovro-lwa/dada2ms.git
+
+
