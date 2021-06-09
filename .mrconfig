@@ -1,5 +1,6 @@
 # myrepos config file for ovro-lwa Project
 
+
 [lwa-antpos]
 checkout =
     git clone git@github.com:ovro-lwa/lwa-antpos.git
@@ -25,3 +26,32 @@ checkout =
     git clone git@github.com:ovro-lwa/dada2ms.git
 
 
+[caltech-lwa]
+checkout =
+    git clone https://github.com/realtimeradio/caltech-lwa
+    cd caltech-lwa
+    git submodule init control_sw/libs/casperfpga
+    git submodule update
+    cd control_sw/libs/casperfpga
+    pip install -r requirements.txt
+    python setup.py install
+    cd ../..
+    pip install -r requirements.txt
+    python setup.py install
+
+[caltech-bifrost-dsp]
+checkout = 
+    git clone https://github.com/realtimeradio/caltech-bifrost-dsp.git
+    cd caltech-bifrost-dsp
+    git submodule init
+    git submodule update
+    install_xgpu.sh
+    pip install numpy contextlib2 pint ctypesgen ipython simplejson etcd3
+    cd bifrost && make && make install
+    cd ../pipeline
+    pip install -r requirements.txt
+    python setup.py install
+
+[bifrost]
+checkout =
+    git clone https://github.com/ledatelescope/bifrost
