@@ -47,6 +47,7 @@ checkout =
     git submodule update
     ./install_xgpu.sh
     pip install numpy contextlib2 pint ctypesgen ipython simplejson etcd3
+    export PATH=$PATH:/usr/local/cuda/bin
     cd bifrost && make && make install
     cd ../pipeline
     pip install -r requirements.txt
