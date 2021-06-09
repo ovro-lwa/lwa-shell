@@ -45,7 +45,7 @@ checkout =
     cd caltech-bifrost-dsp
     git submodule init
     git submodule update
-    install_xgpu.sh
+    ./install_xgpu.sh
     pip install numpy contextlib2 pint ctypesgen ipython simplejson etcd3
     cd bifrost && make && make install
     cd ../pipeline
