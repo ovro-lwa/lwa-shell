@@ -17,14 +17,9 @@ checkout =
 checkout =
     git clone git@github.com:ovro-lwa/lwa-issues.git
 
-[ops-issues]
-checkout =
-    git clone git@github.com:ovro-lwa/ops-issues.git
-
 [dada2ms]
 checkout =
     git clone git@github.com:ovro-lwa/dada2ms.git
-
 
 [caltech-lwa]
 checkout =
