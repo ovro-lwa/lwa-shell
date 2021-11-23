@@ -4,7 +4,7 @@
 checkout =
     git clone git@github.com:ovro-lwa/lwa-pyutils.git
 fetch =
-    git checkout v1.3.0
+    git checkout v1.4.0
 
 [lwa-controlscripts]
 checkout =
@@ -47,3 +47,9 @@ checkout =
 [bifrost]
 checkout =
     git clone https://github.com/ledatelescope/bifrost
+
+[dsa110-pyutils]
+checkout =
+    git clone https://github.com/dsa110/dsa110-pyutils.git
+fetch =
+    git checkout v3.5.1
