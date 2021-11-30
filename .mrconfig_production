@@ -1,5 +1,9 @@
 # myrepos config file for ovro-lwa Project
 
+[lwa-cfg]
+checkout =
+    git clone git@github.com:ovro-lwa/lwa-cfg.git
+
 [lwa-pyutils]
 checkout =
     git clone git@github.com:ovro-lwa/lwa-pyutils.git
