@@ -57,3 +57,8 @@ checkout =
     git clone https://github.com/dsa110/dsa110-pyutils.git
 fetch =
     git checkout v3.5.1
+
+[deploy-test]
+    git clone https://github.com/ovrocaltech/deploy-test.git
+fetch =
+    git checkout v1.0.0
