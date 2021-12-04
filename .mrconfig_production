@@ -61,4 +61,4 @@ checkout =
     git clone https://github.com/ovrocaltech/deploy-test.git
 update =
     git pull origin  main
-    git checkout v1.0.0
+    git checkout v1.1.0
