@@ -7,7 +7,8 @@ checkout =
 [lwa-pyutils]
 checkout =
     git clone https://github.com/ovro-lwa/lwa-pyutils.git
-fetch =
+update =
+    git pull origin main
     git checkout v1.4.0
 
 [lwa-controlscripts]
@@ -51,11 +52,13 @@ checkout =
 [dsa110-pyutils]
 checkout =
     git clone https://github.com/dsa110/dsa110-pyutils.git
-fetch =
+update =
+    git pull origin master
     git checkout v3.5.1
 
 [deploy-test]
 checkout =
     git clone https://github.com/ovrocaltech/deploy-test.git
-fetch =
+update =
+    git pull origin  main
     git checkout v1.0.0
