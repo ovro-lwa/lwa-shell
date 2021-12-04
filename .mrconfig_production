@@ -2,37 +2,33 @@
 
 [lwa-cfg]
 checkout =
-    git clone git@github.com:ovro-lwa/lwa-cfg.git
+    git clone https://github.com/ovro-lwa/lwa-cfg.git
 
 [lwa-pyutils]
 checkout =
-    git clone git@github.com:ovro-lwa/lwa-pyutils.git
+    git clone https://github.com/ovro-lwa/lwa-pyutils.git
 fetch =
     git checkout v1.4.0
 
 [lwa-controlscripts]
 checkout =
-    git clone git@github.com:ovro-lwa/lwa-controlscripts.git
+    git clone https://github.com/ovro-lwa/lwa-controlscripts.git
 
 [lwa-antpos]
 checkout =
-    git clone git@github.com:ovro-lwa/lwa-antpos.git
+    git clone https://github.com/ovro-lwa/lwa-antpos.git
 
 [ARXtesting]
 checkout =
-    git clone git@github.com:ovro-lwa/ARXtesting.git
+    git clone https://github.com/ovro-lwa/ARXtesting.git
 
 [mnc_python]
 checkout =
-    git clone git@github.com:ovro-lwa/mnc_python.git
-
-[lwa-issues]
-checkout =
-    git clone git@github.com:ovro-lwa/lwa-issues.git
+    git clone https://github.com/ovro-lwa/mnc_python.git
 
 [dada2ms]
 checkout =
-    git clone git@github.com:ovro-lwa/dada2ms.git
+    git clone https://github.com/ovro-lwa/dada2ms.git
 
 [caltech-lwa]
 checkout =
