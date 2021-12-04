@@ -10,6 +10,7 @@ checkout =
 update =
     git pull origin main
     git checkout v1.4.0
+    git checkout -- .
 
 [lwa-controlscripts]
 checkout =
@@ -55,6 +56,7 @@ checkout =
 update =
     git pull origin master
     git checkout v3.5.1
+    git checkout -- .
 
 [deploy-test]
 checkout =
@@ -62,3 +64,4 @@ checkout =
 update =
     git pull origin  main
     git checkout v1.1.0
+    git checkout -- .
