@@ -59,6 +59,7 @@ fetch =
     git checkout v3.5.1
 
 [deploy-test]
+checkout =
     git clone https://github.com/ovrocaltech/deploy-test.git
 fetch =
     git checkout v1.0.0
