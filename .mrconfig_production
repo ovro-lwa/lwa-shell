@@ -9,7 +9,7 @@ checkout =
     git clone https://github.com/ovro-lwa/lwa-pyutils.git
 update =
     git pull --tags origin main
-    git checkout v1.4.1
+    git checkout v1.4.2
     git checkout -- .
 
 [lwa-controlscripts]
