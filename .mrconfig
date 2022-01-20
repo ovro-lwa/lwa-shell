@@ -1,5 +1,9 @@
 # myrepos config file for ovro-lwa Project
 
+[swdeploy]
+checkout =
+    git clone https://github.com/ovrocaltech/swdeploy.git
+
 [lwa-cfg]
 checkout =
     git clone git@github.com:ovro-lwa/lwa-cfg.git
