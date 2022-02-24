@@ -1,13 +1,5 @@
 # myrepos config file for ovro-lwa Project
 
-[swdeploy]
-checkout =
-    git clone https://github.com/ovrocaltech/swdeploy.git
-update =
-    git pull --tags origin main
-    git checkout v1.0.1
-    git checkout -- .
-
 [lwa-cfg]
 checkout =
     git clone https://github.com/ovro-lwa/lwa-cfg.git
