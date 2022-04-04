@@ -1,5 +1,12 @@
 # myrepos config file for ovro-lwa Project
 
+[ovro_data_recorder]
+checkout =
+    git clone https://github.com/lwa-project/ovro_data_recorder
+update =
+    git pull --tags origin main
+    git checkout -- .
+
 [swdeploy]
 checkout =
     git clone https://github.com/ovrocaltech/swdeploy.git
