@@ -32,6 +32,10 @@ checkout =
 checkout =
     git clone git@github.com:ovro-lwa/lwa-issues.git
 
+[bifrost]
+checkout =
+    git clone https://github.com/ledatelescope/bifrost
+
 [caltech-lwa]
 checkout =
     git clone https://github.com/realtimeradio/caltech-lwa
