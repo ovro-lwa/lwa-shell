@@ -27,6 +27,9 @@ checkout =
 [lwa-antpos]
 checkout =
     git clone https://github.com/ovro-lwa/lwa-antpos.git
+    git pull --tags origin main
+    git checkout 0.6.4
+    git checkout -- .
 
 [ARXtesting]
 checkout =
