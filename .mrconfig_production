@@ -1,16 +1,11 @@
 # myrepos config file for ovro-lwa Project
 
-[swdeploy]
-checkout =
-    git clone https://github.com/ovrocaltech/swdeploy.git
-update =
-    git pull --tags origin main
-    git checkout v1.0.1
-    git checkout -- .
-
 [lwa-cfg]
 checkout =
     git clone https://github.com/ovro-lwa/lwa-cfg.git
+update =
+    git pull --tags origin main
+    git checkout -- .
 
 [lwa-pyutils]
 checkout =
@@ -23,22 +18,39 @@ update =
 [lwa-controlscripts]
 checkout =
     git clone https://github.com/ovro-lwa/lwa-controlscripts.git
+update =
+    git pull --tags origin main
+    git checkout -- .
 
 [lwa-antpos]
 checkout =
     git clone https://github.com/ovro-lwa/lwa-antpos.git
+update =
+    git pull --tags origin main
+    git checkout 0.6.4
+    git checkout -- .
 
 [ARXtesting]
 checkout =
     git clone https://github.com/ovro-lwa/ARXtesting.git
+update =
+    git pull --tags origin main
+    git checkout -- .
 
 [mnc_python]
 checkout =
     git clone https://github.com/ovro-lwa/mnc_python.git
+update =
+    git pull --tags origin main
+    git checkout 0.8.2
+    git checkout -- .
 
 [dada2ms]
 checkout =
     git clone https://github.com/ovro-lwa/dada2ms.git
+update =
+    git pull --tags origin master
+    git checkout -- .
 
 [caltech-lwa]
 checkout =
@@ -46,6 +58,10 @@ checkout =
     cd caltech-lwa
     git submodule init control_sw/libs/casperfpga
     git submodule update
+update =
+    git pull --tags origin master
+    git checkout v2.0.16
+    git checkout -- .
 
 [caltech-bifrost-dsp]
 checkout = 
@@ -53,17 +69,23 @@ checkout =
     cd caltech-bifrost-dsp
     git submodule init
     git submodule update
+update =
+    git pull --tags origin main
+    git checkout -- .
 
 [bifrost]
 checkout =
     git clone https://github.com/ledatelescope/bifrost
+update =
+    git pull --tags origin master
+    git checkout -- .
 
 [dsa110-pyutils]
 checkout =
     git clone https://github.com/dsa110/dsa110-pyutils.git
 update =
     git pull --tags origin master
-    git checkout v3.5.3
+    git checkout v3.8.1
     git checkout -- .
 
 [deploy-test]
