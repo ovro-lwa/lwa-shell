@@ -95,3 +95,10 @@ update =
     git pull --tags origin main
     git checkout v1.2.1
     git checkout -- .
+
+[ovro_data_recorder]
+checkout =
+    git clone https://github.com/lwa-project/ovro_data_recorder.git
+update =
+    git pull --tags origin main
+    git checkout -- .
