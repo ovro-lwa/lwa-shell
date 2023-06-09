@@ -95,6 +95,14 @@ update =
     git checkout v3.8.1
     git checkout -- .
 
+[swdeploy]
+checkout =
+    git clone https://github.com/ovrocaltech/swdeploy.git
+update =
+    git pull --tags origin main
+    git checkout v1.4.0
+    git checkout -- .
+
 [deploy-test]
 checkout =
     git clone https://github.com/ovrocaltech/deploy-test.git
