@@ -100,7 +100,7 @@ checkout =
     git clone https://github.com/ovrocaltech/swdeploy.git
 update =
     git pull --tags origin main
-    git checkout v1.4.1
+    git checkout v1.4.2
     git checkout -- .
 
 [deploy-test]
