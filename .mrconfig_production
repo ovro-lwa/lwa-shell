@@ -78,7 +78,7 @@ checkout =
     git submodule update
 update =
     git pull --tags origin main
-    git checkout -- v1.0.3
+    git checkout -- v1.0.4
     git checkout -- .
 
 [bifrost]
