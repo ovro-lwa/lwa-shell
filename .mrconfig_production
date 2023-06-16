@@ -19,7 +19,7 @@ checkout =
     git clone https://github.com/ovro-lwa/lwa-pyutils.git
 update =
     git pull --tags origin main
-    git checkout v1.4.2
+    git checkout v1.4.5
     git checkout -- .
 
 [lwa-controlscripts]
@@ -34,7 +34,7 @@ checkout =
     git clone https://github.com/ovro-lwa/lwa-antpos.git
 update =
     git pull --tags origin main
-    git checkout 0.6.4
+    git checkout 0.6.9
     git checkout -- .
 
 [ARXtesting]
@@ -49,7 +49,7 @@ checkout =
     git clone https://github.com/ovro-lwa/mnc_python.git
 update =
     git pull --tags origin main
-    git checkout 0.8.2
+    git checkout 0.8.8
     git checkout -- .
 
 [dada2ms]
