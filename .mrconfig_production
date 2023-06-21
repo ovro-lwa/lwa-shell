@@ -68,6 +68,7 @@ checkout =
 update =
     git pull --tags origin master
     git checkout v2.0.20
+    git submodule update
     git checkout -- .
 
 [caltech-bifrost-dsp]
@@ -78,7 +79,8 @@ checkout =
     git submodule update
 update =
     git pull --tags origin main
-    git checkout v1.0.4
+    git checkout v1.0.5
+    git submodule update
     git checkout -- .
 
 [bifrost]
