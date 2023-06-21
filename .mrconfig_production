@@ -79,7 +79,7 @@ checkout =
     git submodule update
 update =
     git pull --tags origin main
-    git checkout v1.0.6
+    git checkout v1.0.7
     git submodule update
     git checkout -- .
 
