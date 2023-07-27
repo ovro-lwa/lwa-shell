@@ -7,6 +7,13 @@ update =
     git pull --tags origin main
     git checkout -- .
     
+[lwa-observing]
+checkout =
+    git clone https://github.com/ovro-lwa/lwa-observing.git
+update =
+    git pull --tags origin main
+    git checkout -- .
+    
 [lwa-cfg]
 checkout =
     git clone https://github.com/ovro-lwa/lwa-cfg.git
