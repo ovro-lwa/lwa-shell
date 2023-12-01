@@ -74,7 +74,7 @@ checkout =
     git submodule update
 update =
     git pull --tags origin master
-    git checkout v2.0.22
+    git checkout v2.0.25
     git submodule update
     git checkout -- .
 
